@@ -1,4 +1,5 @@
-from pyrogram import Client, Message
+from pyrogram import Client
+from pyrogram.types import Message 
 from bot import LOCAL, CONFIG, STATUS
 from bot.handlers import help_message_handler
 
