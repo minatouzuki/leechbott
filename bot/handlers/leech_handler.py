@@ -12,8 +12,8 @@ from re import match as re_match
 from asyncio import sleep as asyncio_sleep
 from os.path import join as os_path_join
 from math import floor
-from pyrogram import Client, filters, InlineKeyboardMarkup, InlineKeyboardButton
-from pyrogram.types import Message 
+from pyrogram import Client, filters
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from aria2p.downloads import Download, File
 from bot import LOCAL, STATUS, CONFIG, COMMAND
 from bot.plugins import aria2, zipfile
