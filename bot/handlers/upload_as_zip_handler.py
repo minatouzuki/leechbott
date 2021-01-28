@@ -1,4 +1,5 @@
-from pyrogram import Client, Message, Filters
+from pyrogram import Client, filters
+from pyrogram.types import Message 
 from bot import LOCAL, STATUS, COMMAND
 
 @Client.on_message(Filters.command(COMMAND.UPLOAD_AS_ZIP))
