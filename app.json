@@ -9,7 +9,7 @@
       "leecher"
     ],
     "website": "https://github.com/azamaulanaaa/botkaca",
-    "repository": "https://github.com/azamaulanaaa/botkaca",
+    "repository": "https://github.com/minatouzuki/botkaca",
     "env": {
       "API_ID": {
         "description": "get this value from https://my.telegram.org",
