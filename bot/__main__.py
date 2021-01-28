@@ -1,6 +1,6 @@
 from os.path import join as os_path_join
-from pyrogram import Client, MessageHandler, Filters, CallbackQueryHandler
-from pyrogram.types import Message 
+from pyrogram import Client, Filters, CallbackQueryHandler
+from pyrogram.types import Message, MessageHandler
 from bot import CONFIG, COMMAND, LOCAL, LOGGER, STATUS
 from bot.handlers import *
 import asyncio
