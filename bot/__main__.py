@@ -21,7 +21,7 @@ app.set_parse_mode("html")
 app.add_handler(
     MessageHandler(
         start_message_handler.func,
-        filters=Filters.command(COMMAND.START)
+        filters=filters.command(COMMAND.START)
     )
 )
 
@@ -30,7 +30,7 @@ if CONFIG.BOT_PASSWORD:
     app.add_handler(
         MessageHandler(
             password_handler.func,
-            filters = Filters.command(COMMAND.PASSWORD)
+            filters = filters.command(COMMAND.PASSWORD)
         )
     )
 
